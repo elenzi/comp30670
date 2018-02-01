@@ -12,4 +12,5 @@ setup(name="System_Info",
     entry_points={
         'console_scripts':['softeng_COMP_30670=System_Info.main:main']
         }   
+    
 )

@@ -1,3 +1,0 @@
-[console_scripts]
-Comp_30670_System_Info = System_Info.main:main
-
