@@ -7,8 +7,11 @@ Created on 1 Feb 2018
 import platform
 
 def main():
-    s = "Architecture: {}\nOS: {}".format(platform.architecture(),
-                                         platform.system() )
+    s = "\nPlatform: {}\nOS: {}\nArchitecture: {}\nProcessor: {}\nMachine: {}".format(platform.platform(),
+                                         platform.system(),
+                                         platform.architecture(),
+                                         platform.processor(),
+                                         platform.machine() )
     
     
     #print("OS:", platform.system())
